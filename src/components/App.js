@@ -64,12 +64,12 @@ class App extends Component {
           {
           posts.map (post => (
             <Post key={ post.id }
-            text={ post.text }
-            date={ post.date }
-            id={ post.id }
-            updatePostFn { this.updatePost }
-            deletePostFn { this.deletePost }
-            createPostFn { this.createPost} />
+            text = { post.text }
+            date = { post.date }
+            id = { post.id }
+            updatePostFn = { this.updatePost }
+            deletePostFn = { this.deletePost }
+            createPostFn = { this.createPost} />
             ))
           }
         </section>
